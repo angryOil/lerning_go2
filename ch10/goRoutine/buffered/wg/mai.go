@@ -5,7 +5,7 @@ import (
 	"sync"
 )
 
-// java stream Lists.of(1,2,3,).map(a -> b).map(b -> c)
+// java stream Lists.of(1,2,3,).myMap(a -> b).myMap(b -> c)
 func main() {
 	in := make(chan int, 3)
 	in <- 1
