@@ -1,0 +1,4 @@
+name,age,has_pet
+"Joy,adfsklasdfk12312",100,true
+world,123,false
+hello,21,true
