@@ -22,3 +22,16 @@ func Test_successToUpdate(t *testing.T) {
 type per struct {
 	Name string
 }
+
+func Test_PointerNil(t *testing.T) {
+	var p per
+	assert.Equal(t, nil, &p)
+}
+
+type forNil interface {
+}
+
+func Test_forNil(t *testing.T) {
+	var fn forNil
+	assert.Equal(t, nil, fn)
+}
